@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang='en' id='top'>
+<head>
+<meta charset='utf-8' name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Cosmic Ray Detector</title>
+</head>
+<body>
+<style>
+body {
+  max-width:70ch;
+  padding:2ch;
+  margin:auto;
+  color:#333;
+  font-size:1.2em;
+	background-color:#F1F1F1;
+	height:100%;
+}
+html {
+height:100%;
+background-color:#FFF;
+}
+button {
+ background-color:white;
+ padding:10px;
+}
+pre {
+background-color:white;
+ padding:10px;
+ margin:10px;
+}
+
+@-webkit-keyframes psychedelic {
+  0% {
+	-webkit-filter: sepia(0%) hue-rotate(0deg) saturate(1) invert(0);
+	box-shadow: 0 0 7px #FFF, -2px -8px 30px inset #685;
+  } 
+  10% {
+-webkit-filter: sepia(12%) hue-rotate(40deg) saturate(2) invert(.15);
+box-shadow: -12px 14px 70px #F00, 20px 41px 2px inset #841;
+  }
+  50% {
+-webkit-filter: sepia(80%) hue-rotate(360deg) saturate(8) invert(.25);
+box-shadow: 6px -14px 70px #F00, -40px -8px 91px inset #A0F;
+  }
+  100% {
+-webkit-filter: sepia(12%) hue-rotate(0deg) saturate(2) invert(0);
+box-shadow: -12px 14px 70px #F00, -18px 14px 4px inset #3F8;
+  }
+}
+
+.cosmic * {
+animation: psychedelic linear 10s infinite;
+}
+
+
+
+</style>
+
+<h1 id='h1'> THIS IS A COSMIC-RAY DETECTOR </h1>
+
+
+<p id='p1'>Here is the code...</p>
+
+
+<pre id='pre1'>
+while(1==1) {
+  if (1!=1) {
+    alert("oh no, cosmic ray detected");
+  } else {
+    alert("oh, no cosmic ray detected");
+  }
+}
+</pre>
+
+<p id='p2'>When you are ready to start the cosmic-ray detector, press this button...</p>
+
+<button id='button' onclick='go();'>START DETECTING COSMIC RAYS</button>
+
+<p>&nbsp;</p>
+<hr />
+<p><small><a href='https://github.com/secretGeek/cosmic-ray-detector/issues'>report issues here.</a></small></p>
+
+
+</body>
+<script>
+function go() {
+	var i = 0;
+	while(i++<3) {
+		if (1!=1) {
+			alert("oh no, cosmic ray detected");
+		} else {
+			alert("oh, no cosmic ray detected");
+		}
+	}
+  do_stuff();
+}
+
+function do_stuff() {
+
+  alert("oh no, cosmic ray detected");
+  document.getElementById("top").classList.add("cosmic");
+	//setTimeout(function(){ alert("Aaaaaaargh....");alert("Close the browser, oh god, it hurts...."); }, 20);
+	setTimeout(function(){
+		$id('button').onclick = null;
+	setTimeout(function(){
+	  $id('button').innerHTML = "COSMIC RAYS EVERYWHERE!"
+	setTimeout(function(){
+	  $id('p1').innerHTML = "stAy Away eaarth is nOT sAfE"
+	setTimeout(function(){
+	  $id('h1').innerHTML = "THIS IS THE WRONG PLANET"
+	setTimeout(function(){
+	  $id('p2').innerHTML = "Never do what you are told"
+	setTimeout(function(){
+	  $id('pre1').innerHTML = "yakkity yakkity {{ <<<< < << \\n\n beep boop! } ] ; ;\n\n__.use JAVA meat puppetz! @$ \n*char(( BEEP\n.\nXX."
+	},4000);
+	},4000);
+	},4000);
+	},4000);
+	},4000);
+	},20);
+	
+}
+function $id(id) {
+ return document.getElementById(id);
+}
+</script>
+
+</html>
+
+
+
