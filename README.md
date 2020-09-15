@@ -12,7 +12,7 @@ Personally, I think "Cosmic Ray" would be a great name for a super hero, or supe
 
 Also "Cosmic Ray and the Bit-Flippers" would be a great name for a psychedelic surf guitar garage trance nu wave metal shoegaze big band.
 
-"Hi I'm Cosmic Ray, and these are my brothers Alpha and Beta and Gamma. And we're the Bit-Flippers!"
-
-(Insane psychedelic surf guitar garage trance nu wave metal shoegaze big band noise commences.)
+> Hi I'm Cosmic Ray, and these are my brothers Alpha and Beta and Gamma. And we're the Bit-Flippers!
+>
+> (Insane psychedelic-surf-guitar-garage-trance-nu-wave-metal-shoegaze-big-band noise commences.)
 
